@@ -1,0 +1,43 @@
+parentTag,tagName,setpointA,shelvingAllowed,ackMode,name,priority,displayPath,label,bindType,value
+GvSys,bStsAlwaysTrue,0,FALSE,Unused,FAB_001,High,FAB2900,PLC Offline,,
+GvSys,bConfig,1,FALSE,Unused,FAB_002,High,FAB2900,Required Configuration Files Not Found - Restore missing files or image PLC from Backup,,
+GvSys,bTempHigh,1,FALSE,Unused,FAB_003,High,FAB2900,SSC Temperature Critical -- LStop Engaged,,
+GvSys,bTempLow,1,FALSE,Unused,FAB_004,High,FAB2900,Temperature Limit Exceeded -- Check A/C Unit Wiring,,
+GvSys,bLoadPowerLoss,1,FALSE,Unused,FAB_005,High,FAB2900,SSC 24V DC Load Power Supply Not OK,,
+GvSys,bDrivePowerLoss,1,FALSE,Unused,FAB_006,High,FAB2900,SSC 24V DC Servo Power Supply Not OK,,
+GvSys,bPlcFault,1,FALSE,Unused,FAB_007,High,FAB2900,PLC Offline,,
+GvSys,bRssEStopActive,1,FALSE,Unused,FAB_010,High,FAB2900,LSS ESTOP Active,,
+GvSys,bRssEStopHardware,1,FALSE,Unused,FAB_011,High,FAB2900,"LSS ESTOP Input Discrepancy - Check Safety Relays, Wiring",,
+GvSys,bRssComLoss,1,FALSE,Unused,FAB_012,High,FAB2900,"LSS Heartbeat Lost - Verify Ethernet Adapter Connection, SSC Switch, and LSS Status",,
+GvSys,bAlarmResetExceeded,1,FALSE,Unused,FAB_099,Low,FAB2900,One or more active system alarms have exceeded reset limit. Mode cycle required,,
+GvVanityCase,bMotorStuck,1,FALSE,Unused,FAB_1117,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""Motor Stuck - Check function is not mechanically jammed, obstructed or impinged"")"
+GvVanityCase,bGeneralAxisError,1,FALSE,Unused,FAB_2100,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName}, "" "", {[.]../../stHmi/stLid/sStsName},"" "",""General Motor Fault"")"
+GvVanityCase,bECAM_TableError,1,FALSE,Unused,FAB_2101,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""ECAM Table Error"")"
+GvVanityCase,bCommutationError,1,FALSE,Unused,FAB_2101,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""Commutation Error, Check drive tuning"")"
+GvVanityCase,bHallsFeedback,1,FALSE,Unused,FAB_2103,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""Hall Sensor Feedback - Check encoder cable"")"
+GvVanityCase,bCurrentLimit,1,FALSE,Unused,FAB_2104,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""Current Limit Exceeded - Check function for mechanical jam, obstruction or impingement"")"
+GvVanityCase,bHallsSpeed,1,FALSE,Unused,FAB_2105,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""Hall Sensor Speed - Check Encoder Cable"")"
+GvVanityCase,bSpeedTracking,1,FALSE,Unused,FAB_2106,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""Speed Tracking Drive - Check mechanical linkages, wiring"")"
+GvVanityCase,bSpeedTrackingPLC,1,FALSE,Unused,FAB_2107,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""Speed Tracking PLC -Check mechanical linkages, wiring"")"
+GvVanityCase,bPositionTracking,1,FALSE,Unused,FAB_2108,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""Position Tracking Drive - Check mechanical linkages, wiring"")"
+GvVanityCase,bPositionTrackingPLC,1,FALSE,Unused,FAB_2109,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""Position Tracking PLC - Check mechanical linkages, wiring"")"
+GvVanityCase,bUndervoltage,1,FALSE,Unused,FAB_2110,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""Drive Undervoltage - Check drive power supply"")"
+GvVanityCase,bOvervoltage,1,FALSE,Unused,FAB_2111,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""Drive Overvoltage -  Check drive power supply"")"
+GvVanityCase,bSTO,1,FALSE,Unused,FAB_2112,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""STOs Active - Verify LSTOP reset, STOs have been released, Check Safety Processor"")"
+GvVanityCase,bShortCircuit,1,FALSE,Unused,FAB_2113,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""Drive Short Circuit - Check wiring"")"
+GvVanityCase,bOvertemp,1,FALSE,Unused,FAB_2114,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""Drive Overtemp - Check FAB A/C unit"")"
+GvVanityCase,bOverspeed,1,FALSE,Unused,FAB_2115,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""Drive Overspeed"")"
+GvVanityCase,bCPU_Exception,1,FALSE,Unused,FAB_2116,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""Drive CPU exception"")"
+GvVanityCase,bFailedToStart,1,FALSE,Unused,FAB_2119,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""Drive Failed to Start - Check STOs, motor connections, cabling."")"
+GvVanityCase,bExternalInhibit,1,FALSE,Unused,FAB_2120,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""Drive External Inhibit active"")"
+GvVanityCase,bDatabaseError,1,FALSE,Unused,FAB_2121,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""Drive Database Error"")"
+GvVanityCase,bDriveComLoss,1,FALSE,Unused,FAB_2122,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""Drive Communication Fault - Check Ethernet connection in FAB"")"
+GvVanityCase,bGeneralHomingError,1,FALSE,Unused,FAB_2123,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""General Homing Fault - Re-Home required"")"
+GvVanityCase,bHomingCountsHigh,1,FALSE,Unused,FAB_2124,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""Homing Counts High"")"
+GvVanityCase,bHomingCountsLow,1,FALSE,Unused,FAB_2125,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""Homing Counts Low"")"
+GvVanityCase,bHomingHardStopPos,1,FALSE,Unused,FAB_2126,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""Homing Positive Hardstop"")"
+GvVanityCase,bHomingHardStopNeg,1,FALSE,Unused,FAB_2127,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""Homing Negative Hardstop"")"
+GvVanityCase,bHomingCurrent,1,FALSE,Unused,FAB_2128,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""Homing Current"")"
+GvVanityCase,bLoadCellRange,1,FALSE,Unused,FAB_2129,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""Load Cell Out Of Range"")"
+GvVanityCase,bDriveComSyncLoss,1,FALSE,Unused,FAB_2130,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""EtherCAT SYNC group for this drive is not OK. Check for drive faults within the group"")"
+GvVanityCase,bAlarmResetExceeded,1,FALSE,Unused,FAB_299,Low,FAB2900,,Expression,"concat({[.]../stHmi/sStsFigureName},"" "",""One or more active figure alarms have exceeded reset limit. Mode cycle required"")"
