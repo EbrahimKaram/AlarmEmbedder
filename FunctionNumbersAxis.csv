@@ -1,9 +1,9 @@
 ﻿Element,Axis,FunctionNumber,FabNumber
 GvFeather,stRaise,01,FAB2500
-GvHand,stWristForwardBack,11,FAB2500
-GvHand,stFingersOC,12,FAB2500
-GvHand,stWandDropRotate,13,FAB2500
-GvBook,stBookOC,21,FAB2500
+GvHand,stWristFwdBack1,11,FAB2500
+GvHand,stFingersOpenClose,12,FAB2500
+GvHand,stWandRaise,13,FAB2500
+GvBook,stOpenClose,21,FAB2500
 GvAccordion,stBellows,01,FAB2600
 GvAccordion,stKeys,02,FAB2600
 GvAccordion,stHorn,03,FAB2600
