@@ -7,7 +7,7 @@ GvBook,stOpenClose,21,FAB2500
 GvAccordion,stBellows,01,FAB2600
 GvAccordion,stKeys,02,FAB2600
 GvAccordion,stHorn,03,FAB2600
-GvDoubleSax,stValves,11,FAB2600
+GvSaxophone,stValves,11,FAB2600
 GvStringBass,stBanjo,21,FAB2600
 GvSousaphone,stHorn1,31,FAB2600
 GvSousaphone,stHorn2,32,FAB2600
