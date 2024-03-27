@@ -12,8 +12,8 @@ GvStringBass,stBanjo,21,FAB2600
 GvSousaphone,stHorn1,31,FAB2600
 GvSousaphone,stHorn2,32,FAB2600
 GvSousaphone,stSlide,33,FAB2600
-GvDrum,stBass,41,FAB2600
-GvDrum,stTambourine,42,FAB2600
+GvKickDrum,stBass,41,FAB2600
+GvKickDrum,stTambourine,42,FAB2600
 GvPercussion,stHiHats,51,FAB2600
 GvWandWheel,stInnerRing,01,FAB2800
 GvWandWheel,stOuterRing,02,FAB2800
