@@ -61,4 +61,4 @@ GvHoover,stLed_Back,07,FAB4400
 GvDuster,stLed_Back,11,FAB4400
 GvDuster,stShakeFB,12,FAB4400
 GvDuster,stDusterUD,13,FAB4400
-GvDuster,stShakeLR,14,FAB4400
+GvDuster,stDusterRotate,14,FAB4400
