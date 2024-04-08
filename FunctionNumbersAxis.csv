@@ -58,7 +58,7 @@ GvHoover,stRight_Wrist,04,FAB4400
 GvHoover,stBag_Inflate,06,FAB4400
 GvHoover,stLed_Front,05,FAB4400
 GvHoover,stLed_Back,07,FAB4400
-GvDuster,stLed_Back,11,FAB4400
+GvDuster,stDusterRotate,11,FAB4400
 GvDuster,stShakeFB,12,FAB4400
 GvDuster,stDusterUD,13,FAB4400
-GvDuster,stDusterRotate,14,FAB4400
+GvDuster,stShakeLR,14,FAB4400
