@@ -1,7 +1,7 @@
 parentTag,tagName,setpointA,shelvingAllowed,ackMode,name,priority,displayPath,label,bindType,value
 GvSys,bStsAlwaysTrue,0,FALSE,Unused,FAB_001,High,FAB2900,PLC Offline,,
 GvSys,bConfig,1,FALSE,Unused,FAB_002,High,FAB2900,Required Configuration Files Not Found - Restore missing files or image PLC from Backup,,
-GvSys,bTempHigh,1,FALSE,Unused,FAB_003,High,FAB2900,SSC Temperature Critical -- LStop Engaged,,
+GvSys,bTempHigh,1,FALSE,Unused,FAB_003,High,FAB2900,FAB Temperature Critical -- LStop Engaged,,
 GvSys,bTempLow,1,FALSE,Unused,FAB_004,High,FAB2900,Temperature Limit Exceeded -- Check A/C Unit Wiring,,
 GvSys,bLoadPowerLoss,1,FALSE,Unused,FAB_005,High,FAB2900,SSC 24V DC Load Power Supply Not OK,,
 GvSys,bDrivePowerLoss,1,FALSE,Unused,FAB_006,High,FAB2900,SSC 24V DC Servo Power Supply Not OK,,
