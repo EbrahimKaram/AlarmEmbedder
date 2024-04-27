@@ -49,7 +49,7 @@ GvHoover,stLeft_Arm,01,FAB3900
 GvHoover,stLeft_Wrist,02,FAB3900
 GvHoover,stRight_Arm,03,FAB3900
 GvHoover,stRight_Wrist,04,FAB3900
-GvHoover,sDeviceRotate,05,FAB3900
+GvHoover,stDeviceRotate,05,FAB3900
 GvHoover,stBag_Inflate,06,FAB3900
 GvHoover,stLed_Front,05,FAB3900
 GvHoover,stLed_Back,07,FAB3900
