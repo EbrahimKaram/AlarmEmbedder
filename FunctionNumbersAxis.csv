@@ -18,11 +18,11 @@ GvPercussionTower,stHiHats,51,FAB2600
 GvWandWheel,stInnerRing,01,FAB2800
 GvWandWheel,stOuterRing,02,FAB2800
 GvWandWheel,stMedallion,03,FAB2800
-GvKpss,stTorso,01,FAB2900
-GvKpss,stPants,02,FAB2900
-GvKpss,stRightLeg,03,FAB2900
-GvKpss,stRightKnee,04,FAB2900
-GvKpss,stFootPedal,05,FAB2900
+GvKpss,stTorsoRotate,01,FAB2900
+GvKpss,stPantsSlide,02,FAB2900
+GvKpss,stRightLegHip,03,FAB2900
+GvKpss,stRightLegKnee,04,FAB2900
+GvKpss,stPedalUpDown,05,FAB2900
 GvVanityCase,stOpenClose,21,FAB2900
 GvBookCase,stOpenClose,31,FAB2900
 GvPotionCase,stOpenClose,41,FAB2900
