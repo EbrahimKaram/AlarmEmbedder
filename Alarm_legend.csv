@@ -3,12 +3,12 @@ GvSys,bStsAlwaysTrue,0,FALSE,Unused,FAB_001,High,FAB2900,PLC Offline,,
 GvSys,bConfig,1,FALSE,Unused,FAB_002,High,FAB2900,Required Configuration Files Not Found - Restore missing files or image PLC from Backup,,
 GvSys,bTempHigh,1,FALSE,Unused,FAB_003,High,FAB2900,FAB Temperature Critical -- LStop Engaged,,
 GvSys,bTempLow,1,FALSE,Unused,FAB_004,High,FAB2900,Temperature Limit Exceeded -- Check A/C Unit Wiring,,
-GvSys,bLoadPowerLoss,1,FALSE,Unused,FAB_005,High,FAB2900,SSC 24V DC Load Power Supply Not OK,,
-GvSys,bDrivePowerLoss,1,FALSE,Unused,FAB_006,High,FAB2900,SSC 24V DC Servo Power Supply Not OK,,
+GvSys,bLoadPowerLoss,1,FALSE,Unused,FAB_005,High,FAB2900,FAB 24V DC Load Power Supply Not OK,,
+GvSys,bDrivePowerLoss,1,FALSE,Unused,FAB_006,High,FAB2900,FAB 24V DC Servo Power Supply Not OK,,
 GvSys,bPlcFault,1,FALSE,Unused,FAB_007,High,FAB2900,PLC Offline,,
 GvSys,bRssEStopActive,1,FALSE,Unused,FAB_010,High,FAB2900,LSS ESTOP Active,,
 GvSys,bRssEStopHardware,1,FALSE,Unused,FAB_011,High,FAB2900,"LSS ESTOP Input Discrepancy - Check Safety Relays, Wiring",,
-GvSys,bRssComLoss,1,FALSE,Unused,FAB_012,High,FAB2900,"LSS Heartbeat Lost - Verify Ethernet Adapter Connection, SSC Switch, and LSS Status",,
+GvSys,bRssComLoss,1,FALSE,Unused,FAB_012,High,FAB2900,"LSS Heartbeat Lost - Verify Ethernet Adapter Connection, FAB Switch, and LSS Status",,
 GvSys,bAlarmResetExceeded,1,FALSE,Unused,FAB_099,Low,FAB2900,One or more active system alarms have exceeded reset limit. Mode cycle required,,
 GvVanityCase,bMotorStuck,1,FALSE,Unused,FAB_1117,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""Motor Stuck - Check function is not mechanically jammed, obstructed or impinged"")"
 GvVanityCase,bGeneralAxisError,1,FALSE,Unused,FAB_2100,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName}, "" "", {[.]../../stHmi/stLid/sStsName},"" "",""General Motor Fault"")"
@@ -23,7 +23,7 @@ GvVanityCase,bPositionTracking,1,FALSE,Unused,FAB_2108,Medium,FAB2900,,Expressio
 GvVanityCase,bPositionTrackingPLC,1,FALSE,Unused,FAB_2109,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""Position Tracking PLC - Check mechanical linkages, wiring"")"
 GvVanityCase,bUndervoltage,1,FALSE,Unused,FAB_2110,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""Drive Undervoltage - Check drive power supply"")"
 GvVanityCase,bOvervoltage,1,FALSE,Unused,FAB_2111,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""Drive Overvoltage -  Check drive power supply"")"
-GvVanityCase,bSTO,1,FALSE,Unused,FAB_2112,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""STOs Active - Verify LSTOP reset, STOs have been released, Check Safety Processor"")"
+GvVanityCase,bSTO,1,FALSE,Unused,FAB_2112,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""STOs Active - Verify LSTOP reset, STOs have been released"")"
 GvVanityCase,bShortCircuit,1,FALSE,Unused,FAB_2113,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""Drive Short Circuit - Check wiring"")"
 GvVanityCase,bOvertemp,1,FALSE,Unused,FAB_2114,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""Drive Overtemp - Check FAB A/C unit"")"
 GvVanityCase,bOverspeed,1,FALSE,Unused,FAB_2115,Medium,FAB2900,,Expression,"concat({[.]../../stHmi/sStsFigureName},"" "",{[.]../../stHmi/stLid/sStsName},"" "",""Drive Overspeed"")"
