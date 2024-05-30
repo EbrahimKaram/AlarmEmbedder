@@ -1,66 +1,66 @@
-﻿Element,Axis,FunctionNumber,FabNumber
-GvFeather,stRaise,01,FAB2500
-GvHand,stWristFwdBack,11,FAB2500
-GvHand,stFingersOpenClose,12,FAB2500
-GvHand,stWandRaise,13,FAB2500
-GvBook,stOpenClose,21,FAB2500
-GvAccordion,stBellows,01,FAB2600
-GvAccordion,stKeys,02,FAB2600
-GvAccordion,stHorn,03,FAB2600
-GvSaxophone,stValves,11,FAB2600
-GvStringBass,stBanjo,21,FAB2600
-GvSousaphone,stHorn1,31,FAB2600
-GvSousaphone,stHorn2,32,FAB2600
-GvSousaphone,stSlide,33,FAB2600
-GvKickDrum,stBass,41,FAB2600
-GvKickDrum,stTambourine,42,FAB2600
-GvPercussionTower,stHiHats,51,FAB2600
-GvWandWheel,stInnerRing,01,FAB2800
-GvWandWheel,stOuterRing,02,FAB2800
-GvWandWheel,stMedallion,03,FAB2800
-GvKpss,stTorsoRotate,01,FAB2900
-GvKpss,stPantsSlide,02,FAB2900
-GvKpss,stRightLegHip,03,FAB2900
-GvKpss,stRightLegKnee,04,FAB2900
-GvKpss,stPedalUpDown,05,FAB2900
-GvVanityCase,stOpenClose,21,FAB2900
-GvBookCase,stOpenClose,31,FAB2900
-GvPotionCase,stOpenClose,41,FAB2900
-GvCircularCase,stOpenClose,51,FAB2900
-GvDiningCase,stOpenClose,61,FAB2900
-GvMuggleSuitcase,stOpenClose,71,FAB2900
-GvMuggleSuitcase,stContents,72,FAB2900
-GvMuggleSuitcase,stSwitch,73,FAB2900
-GvMuggleSuitcase,stThumbTab,74,FAB2900
-GvMuggleSuitcase,stLatches,75,FAB2900
-GvFructoseFerrisWheelA,stSpin,01,FAB3600
-GvFructoseFerrisWheelB,stSpin,02,FAB3600
-GvFructoseFerrisWheelC,stSpin,03,FAB3600
-GvPlumTree,stPlumUD1,01,FAB3700
-GvPlumTree,stPlumUD2,02,FAB3700
-GvPlumTree,stPlumUD3,03,FAB3700
-GvPlumTree,stPlumUD4,04,FAB3700
-GvPlumTree,stPlumUD5,05,FAB3700
-GvPlumTree,stPlumUD6,06,FAB3700
-GvPlumTree,stPlumUD7,07,FAB3700
-GvPlumTree,stPlumUD8,08,FAB3700
-GvPhilosopher,stLid,01,FAB3800
-GvHoover,stLeft_Arm,01,FAB3900
-GvHoover,stLeft_Wrist,02,FAB3900
-GvHoover,stRight_Arm,03,FAB3900
-GvHoover,stRight_Wrist,04,FAB3900
-GvHoover,stDeviceRotate,05,FAB3900
-GvHoover,stBag_Inflate,06,FAB3900
-GvHoover,stLed_Front,07,FAB3900
-GvHoover,stLed_Back,08,FAB3900
-GvHoover,stLeft_Arm,01,FAB4400
-GvHoover,stLeft_Wrist,02,FAB4400
-GvHoover,stRight_Arm,03,FAB4400
-GvHoover,stRight_Wrist,04,FAB4400
-GvHoover,stBag_Inflate,06,FAB4400
-GvHoover,stLed_Front,05,FAB4400
-GvHoover,stLed_Back,07,FAB4400
-GvDuster,stRotate,11,FAB4400
-GvDuster,stNod,12,FAB4400
-GvDuster,stUpDown,13,FAB4400
-GvDuster,stTilt,14,FAB4400
+﻿Element,Axis,FunctionNumber,FabNumber,Figure Name,Axis Name
+GvFeather,stRaise,01,FAB2500,Floating_Feather,Up_Down
+GvHand,stWristFwdBack,11,FAB2500,Hand,Wrist Fwd_Back
+GvHand,stFingersOpenClose,12,FAB2500,Hand,Fingers Open_Close
+GvHand,stWandRaise,13,FAB2500,Hand,Wand Raise
+GvBook,stOpenClose,21,FAB2500,Locked_Book,Open_Close
+GvAccordion,stBellows,01,FAB2600,Accordion,Bellows Open_Close
+GvAccordion,stKeys,02,FAB2600,Accordion,Keys Depress
+GvAccordion,stHorn,03,FAB2600,Accordion,Horn Spin
+GvSaxophone,stValves,11,FAB2600,Saxophone,Valves Move
+GvStringBass,stBanjo,21,FAB2600,StringBass,Banjo Pivot
+GvSousaphone,stHorn1,31,FAB2600,Sousaphone,Horn 1 Up_Down
+GvSousaphone,stHorn2,32,FAB2600,Sousaphone,Horn 2 Up_Down
+GvSousaphone,stSlide,33,FAB2600,Sousaphone,Slide In_Out
+GvKickDrum,stBass,41,FAB2600,KickDrum,Bass Drum Spin
+GvKickDrum,stTambourine,42,FAB2600,KickDrum,Tambourine Shake
+GvPercussionTower,stHiHats,51,FAB2600,PercussionTower,Hi_Hats Open_Close
+GvWandWheel,stInnerRing,01,FAB2800,WandWheel,InnerRing
+GvWandWheel,stOuterRing,02,FAB2800,WandWheel,OuterRing
+GvWandWheel,stMedallion,03,FAB2800,WandWheel,Medallion
+GvKpss,stTorsoRotate,01,FAB2900,Kicking Pants,TorsoRotate
+GvKpss,stPantsSlide,02,FAB2900,Kicking Pants,PantsSlide
+GvKpss,stRightLegHip,03,FAB2900,Kicking Pants,RightLegHip
+GvKpss,stRightLegKnee,04,FAB2900,Kicking Pants,RightLegKnee
+GvKpss,stPedalUpDown,05,FAB2900,Kicking Pants,PedalUpDown
+GvVanityCase,stOpenClose,21,FAB2900,Vanity Case,Open_Close
+GvBookCase,stOpenClose,31,FAB2900,Book Case,Open_Close
+GvPotionCase,stOpenClose,41,FAB2900,Potion Case,Open_Close
+GvCircularCase,stOpenClose,51,FAB2900,Circular Case,Open_Close
+GvDiningCase,stOpenClose,61,FAB2900,Dining Case,Open_Close
+GvMuggleSuitcase,stOpenClose,71,FAB2900,Muggle Suitcase,Open_Close
+GvMuggleSuitcase,stContents,72,FAB2900,Muggle Suitcase,Contents
+GvMuggleSuitcase,stSwitch,73,FAB2900,Muggle Suitcase,Switch
+GvMuggleSuitcase,stThumbTab,74,FAB2900,Muggle Suitcase,ThumbTab
+GvMuggleSuitcase,stLatches,75,FAB2900,Muggle Suitcase,Latches
+GvFructoseFerrisWheelA,stSpin,01,FAB3600,FructoseFerrisWheelA,Spin
+GvFructoseFerrisWheelB,stSpin,02,FAB3600,FructoseFerrisWheelA,Spin
+GvFructoseFerrisWheelC,stSpin,03,FAB3600,FructoseFerrisWheelA,Spin
+GvPlumTree,stPlumUD1,01,FAB3700,Dirigible Plum Tree,Plum 1 Up_Down
+GvPlumTree,stPlumUD2,02,FAB3700,Dirigible Plum Tree,Plum 2 Up_Down
+GvPlumTree,stPlumUD3,03,FAB3700,Dirigible Plum Tree,Plum 3 Up_Down
+GvPlumTree,stPlumUD4,04,FAB3700,Dirigible Plum Tree,Plum 4 Up_Down
+GvPlumTree,stPlumUD5,05,FAB3700,Dirigible Plum Tree,Plum 5 Up_Down
+GvPlumTree,stPlumUD6,06,FAB3700,Dirigible Plum Tree,Plum 6 Up_Down
+GvPlumTree,stPlumUD7,07,FAB3700,Dirigible Plum Tree,Plum 7 Up_Down
+GvPlumTree,stPlumUD8,08,FAB3700,Dirigible Plum Tree,Plum 8 Up_Down
+GvPhilosopher,stLid,01,FAB3800,Philosopher's Stone,Open_Close
+GvHoover,stLeft_Arm,01,FAB3900,Magical Hoover,Left_Arm
+GvHoover,stLeft_Wrist,02,FAB3900,Magical Hoover,Left_Wrist
+GvHoover,stRight_Arm,03,FAB3900,Magical Hoover,Right_Arm
+GvHoover,stRight_Wrist,04,FAB3900,Magical Hoover,Right_Wrist
+GvHoover,stDeviceRotate,05,FAB3900,Magical Hoover,Device_Rotate
+GvHoover,stBag_Inflate,06,FAB3900,Magical Hoover,Bag_Inflate
+GvHoover,stLed_Front,07,FAB3900,Magical Hoover,Led_Front
+GvHoover,stLed_Back,08,FAB3900,Magical Hoover,Led_Back
+GvHoover,stLeft_Arm,01,FAB4400,Hoover,Left_Arm
+GvHoover,stLeft_Wrist,02,FAB4400,Hoover,Left_Wrist
+GvHoover,stRight_Arm,03,FAB4400,Hoover,Right_Arm
+GvHoover,stRight_Wrist,04,FAB4400,Hoover,Right_Wrist
+GvHoover,stBag_Inflate,06,FAB4400,Hoover,Bag_Inflate
+GvHoover,stLed_Front,05,FAB4400,Hoover,Led_Front
+GvHoover,stLed_Back,07,FAB4400,Hoover,Led_Back
+GvDuster,stRotate,11,FAB4400,Duster,Rotate
+GvDuster,stNod,12,FAB4400,Duster,Nod
+GvDuster,stUpDown,13,FAB4400,Duster,UpDown
+GvDuster,stTilt,14,FAB4400,Duster,Tilt
