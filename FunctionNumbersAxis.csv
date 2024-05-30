@@ -62,5 +62,5 @@ GvHoover,stLed_Front,05,FAB4400,Hoover,Led_Front
 GvHoover,stLed_Back,07,FAB4400,Hoover,Led_Back
 GvDuster,stRotate,11,FAB4400,Duster,Rotate
 GvDuster,stNod,12,FAB4400,Duster,Nod
-GvDuster,stUpDown,13,FAB4400,Duster,UpDown
+GvDuster,stUpDown,13,FAB4400,Duster,Up Down
 GvDuster,stTilt,14,FAB4400,Duster,Tilt
