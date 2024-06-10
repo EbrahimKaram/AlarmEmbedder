@@ -1,66 +1,97 @@
-﻿Element,Axis,FunctionNumber,FabNumber,Figure Name,Axis Name
-GvFeather,stRaise,01,FAB2500,Floating_Feather,Up_Down
-GvHand,stWristFwdBack,11,FAB2500,Hand,Wrist Fwd_Back
-GvHand,stFingersOpenClose,12,FAB2500,Hand,Fingers Open_Close
-GvHand,stWandRaise,13,FAB2500,Hand,Wand Raise
-GvBook,stOpenClose,21,FAB2500,Locked_Book,Open_Close
-GvAccordion,stBellows,01,FAB2600,Accordion,Bellows Open_Close
-GvAccordion,stKeys,02,FAB2600,Accordion,Keys Depress
-GvAccordion,stHorn,03,FAB2600,Accordion,Horn Spin
-GvSaxophone,stValves,11,FAB2600,Saxophone,Valves Move
-GvStringBass,stBanjo,21,FAB2600,StringBass,Banjo Pivot
-GvSousaphone,stHorn1,31,FAB2600,Sousaphone,Horn 1 Up_Down
-GvSousaphone,stHorn2,32,FAB2600,Sousaphone,Horn 2 Up_Down
-GvSousaphone,stSlide,33,FAB2600,Sousaphone,Slide In_Out
-GvKickDrum,stBass,41,FAB2600,KickDrum,Bass Drum Spin
-GvKickDrum,stTambourine,42,FAB2600,KickDrum,Tambourine Shake
-GvPercussionTower,stHiHats,51,FAB2600,PercussionTower,Hi_Hats Open_Close
-GvWandWheel,stInnerRing,01,FAB2800,WandWheel,InnerRing
-GvWandWheel,stOuterRing,02,FAB2800,WandWheel,OuterRing
-GvWandWheel,stMedallion,03,FAB2800,WandWheel,Medallion
-GvKpss,stTorsoRotate,01,FAB2900,Kicking Pants,TorsoRotate
-GvKpss,stPantsSlide,02,FAB2900,Kicking Pants,PantsSlide
-GvKpss,stRightLegHip,03,FAB2900,Kicking Pants,RightLegHip
-GvKpss,stRightLegKnee,04,FAB2900,Kicking Pants,RightLegKnee
-GvKpss,stPedalUpDown,05,FAB2900,Kicking Pants,PedalUpDown
-GvVanityCase,stOpenClose,21,FAB2900,Vanity Case,Open_Close
-GvBookCase,stOpenClose,31,FAB2900,Book Case,Open_Close
-GvPotionCase,stOpenClose,41,FAB2900,Potion Case,Open_Close
-GvCircularCase,stOpenClose,51,FAB2900,Circular Case,Open_Close
-GvDiningCase,stOpenClose,61,FAB2900,Dining Case,Open_Close
-GvMuggleSuitcase,stOpenClose,71,FAB2900,Muggle Suitcase,Open_Close
-GvMuggleSuitcase,stContents,72,FAB2900,Muggle Suitcase,Contents
-GvMuggleSuitcase,stSwitch,73,FAB2900,Muggle Suitcase,Switch
-GvMuggleSuitcase,stThumbTab,74,FAB2900,Muggle Suitcase,ThumbTab
-GvMuggleSuitcase,stLatches,75,FAB2900,Muggle Suitcase,Latches
-GvFructoseFerrisWheelA,stSpin,01,FAB3600,FructoseFerrisWheelA,Spin
-GvFructoseFerrisWheelB,stSpin,02,FAB3600,FructoseFerrisWheelA,Spin
-GvFructoseFerrisWheelC,stSpin,03,FAB3600,FructoseFerrisWheelA,Spin
-GvPlumTree,stPlumUD1,01,FAB3700,Dirigible Plum Tree,Plum 1 Up_Down
-GvPlumTree,stPlumUD2,02,FAB3700,Dirigible Plum Tree,Plum 2 Up_Down
-GvPlumTree,stPlumUD3,03,FAB3700,Dirigible Plum Tree,Plum 3 Up_Down
-GvPlumTree,stPlumUD4,04,FAB3700,Dirigible Plum Tree,Plum 4 Up_Down
-GvPlumTree,stPlumUD5,05,FAB3700,Dirigible Plum Tree,Plum 5 Up_Down
-GvPlumTree,stPlumUD6,06,FAB3700,Dirigible Plum Tree,Plum 6 Up_Down
-GvPlumTree,stPlumUD7,07,FAB3700,Dirigible Plum Tree,Plum 7 Up_Down
-GvPlumTree,stPlumUD8,08,FAB3700,Dirigible Plum Tree,Plum 8 Up_Down
-GvPhilosopher,stLid,01,FAB3800,Philosopher's Stone,Open_Close
-GvHoover,stLeft_Arm,01,FAB3900,Magical Hoover,Left_Arm
-GvHoover,stLeft_Wrist,02,FAB3900,Magical Hoover,Left_Wrist
-GvHoover,stRight_Arm,03,FAB3900,Magical Hoover,Right_Arm
-GvHoover,stRight_Wrist,04,FAB3900,Magical Hoover,Right_Wrist
-GvHoover,stDeviceRotate,05,FAB3900,Magical Hoover,Device_Rotate
-GvHoover,stBag_Inflate,06,FAB3900,Magical Hoover,Bag_Inflate
-GvHoover,stLed_Front,07,FAB3900,Magical Hoover,Led_Front
-GvHoover,stLed_Back,08,FAB3900,Magical Hoover,Led_Back
-GvHoover,stLeft_Arm,01,FAB4400,Hoover,Left_Arm
-GvHoover,stLeft_Wrist,02,FAB4400,Hoover,Left_Wrist
-GvHoover,stRight_Arm,03,FAB4400,Hoover,Right_Arm
-GvHoover,stRight_Wrist,04,FAB4400,Hoover,Right_Wrist
-GvHoover,stBag_Inflate,06,FAB4400,Hoover,Bag_Inflate
-GvHoover,stLed_Front,05,FAB4400,Hoover,Led_Front
-GvHoover,stLed_Back,07,FAB4400,Hoover,Led_Back
-GvDuster,stRotate,11,FAB4400,Duster,Rotate
-GvDuster,stNod,12,FAB4400,Duster,Nod
-GvDuster,stUpDown,13,FAB4400,Duster,Up Down
-GvDuster,stTilt,14,FAB4400,Duster,Tilt
+﻿Element,Axis,FunctionNumber,FabNumber,Figure Name,Axis Name,,,,,,,,
+GvFeather,stRaise,01,FAB2500,Floating_Feather,Up_Down,,,,,,,,
+GvHand,stWristFwdBack,11,FAB2500,Hand,Wrist Fwd_Back,,,,,,,,
+GvHand,stFingersOpenClose,12,FAB2500,Hand,Fingers Open_Close,,,,,,,,
+GvHand,stWandRaise,13,FAB2500,Hand,Wand Raise,,,,,,,,
+GvBook,stOpenClose,21,FAB2500,Locked_Book,Open_Close,,,,,,,,
+GvAccordion,stBellows,01,FAB2600,Accordion,Bellows Open_Close,,,,,,,,
+GvAccordion,stKeys,02,FAB2600,Accordion,Keys Depress,,,,,,,,
+GvAccordion,stHorn,03,FAB2600,Accordion,Horn Spin,,,,,,,,
+GvSaxophone,stValves,11,FAB2600,Saxophone,Valves Move,,,,,,,,
+GvStringBass,stBanjo,21,FAB2600,StringBass,Banjo Pivot,,,,,,,,
+GvSousaphone,stHorn1,31,FAB2600,Sousaphone,Horn 1 Up_Down,,,,,,,,
+GvSousaphone,stHorn2,32,FAB2600,Sousaphone,Horn 2 Up_Down,,,,,,,,
+GvSousaphone,stSlide,33,FAB2600,Sousaphone,Slide In_Out,,,,,,,,
+GvKickDrum,stBass,41,FAB2600,KickDrum,Bass Drum Spin,,,,,,,,
+GvKickDrum,stTambourine,42,FAB2600,KickDrum,Tambourine Shake,,,,,,,,
+GvPercussionTower,stHiHats,51,FAB2600,PercussionTower,Hi_Hats Open_Close,,,,,,,,
+GvWandWheel,stInnerRing,01,FAB2800,WandWheel,InnerRing,,,,,,,,
+GvWandWheel,stOuterRing,02,FAB2800,WandWheel,OuterRing,,,,,,,,
+GvWandWheel,stMedallion,03,FAB2800,WandWheel,Medallion,,,,,,,,
+GvKpss,stTorsoRotate,01,FAB2900,Kicking Pants,TorsoRotate,,,,,,,,
+GvKpss,stPantsSlide,02,FAB2900,Kicking Pants,PantsSlide,,,,,,,,
+GvKpss,stRightLegHip,03,FAB2900,Kicking Pants,RightLegHip,,,,,,,,
+GvKpss,stRightLegKnee,04,FAB2900,Kicking Pants,RightLegKnee,,,,,,,,
+GvKpss,stPedalUpDown,05,FAB2900,Kicking Pants,PedalUpDown,,,,,,,,
+GvVanityCase,stOpenClose,21,FAB2900,Vanity Case,Open_Close,,,,,,,,
+GvBookCase,stOpenClose,31,FAB2900,Book Case,Open_Close,,,,,,,,
+GvPotionCase,stOpenClose,41,FAB2900,Potion Case,Open_Close,,,,,,,,
+GvCircularCase,stOpenClose,51,FAB2900,Circular Case,Open_Close,,,,,,,,
+GvDiningCase,stOpenClose,61,FAB2900,Dining Case,Open_Close,,,,,,,,
+GvMuggleSuitcase,stOpenClose,71,FAB2900,Muggle Suitcase,Open_Close,,,,,,,,
+GvMuggleSuitcase,stContents,72,FAB2900,Muggle Suitcase,Contents,,,,,,,,
+GvMuggleSuitcase,stSwitch,73,FAB2900,Muggle Suitcase,Switch,,,,,,,,
+GvMuggleSuitcase,stThumbTab,74,FAB2900,Muggle Suitcase,ThumbTab,,,,,,,,
+GvMuggleSuitcase,stLatches,75,FAB2900,Muggle Suitcase,Latches,,,,,,,,
+GvFructoseFerrisWheelA,stSpin,01,FAB3600,FructoseFerrisWheelA,Spin,,,,,,,,
+GvFructoseFerrisWheelB,stSpin,02,FAB3600,FructoseFerrisWheelA,Spin,,,,,,,,
+GvFructoseFerrisWheelC,stSpin,03,FAB3600,FructoseFerrisWheelA,Spin,,,,,,,,
+GvPlumTree,stPlumUD1,01,FAB3700,Dirigible Plum Tree,Plum 1 Up_Down,,,,,,,,
+GvPlumTree,stPlumUD2,02,FAB3700,Dirigible Plum Tree,Plum 2 Up_Down,,,,,,,,
+GvPlumTree,stPlumUD3,03,FAB3700,Dirigible Plum Tree,Plum 3 Up_Down,,,,,,,,
+GvPlumTree,stPlumUD4,04,FAB3700,Dirigible Plum Tree,Plum 4 Up_Down,,,,,,,,
+GvPlumTree,stPlumUD5,05,FAB3700,Dirigible Plum Tree,Plum 5 Up_Down,,,,,,,,
+GvPlumTree,stPlumUD6,06,FAB3700,Dirigible Plum Tree,Plum 6 Up_Down,,,,,,,,
+GvPlumTree,stPlumUD7,07,FAB3700,Dirigible Plum Tree,Plum 7 Up_Down,,,,,,,,
+GvPlumTree,stPlumUD8,08,FAB3700,Dirigible Plum Tree,Plum 8 Up_Down,,,,,,,,
+GvPhilosopher,stLid,01,FAB3800,Philosopher's Stone,Open_Close,,,,,,,,
+GvHoover,stLeft_Arm,01,FAB3900,Magical Hoover,Left_Arm,,,,,,,,
+GvHoover,stLeft_Wrist,02,FAB3900,Magical Hoover,Left_Wrist,,,,,,,,
+GvHoover,stRight_Arm,03,FAB3900,Magical Hoover,Right_Arm,,,,,,,,
+GvHoover,stRight_Wrist,04,FAB3900,Magical Hoover,Right_Wrist,,,,,,,,
+GvHoover,stDeviceRotate,05,FAB3900,Magical Hoover,Device_Rotate,,,,,,,,
+GvHoover,stBag_Inflate,06,FAB3900,Magical Hoover,Bag_Inflate,,,,,,,,
+GvHoover,stLed_Front,07,FAB3900,Magical Hoover,Led_Front,,,,,,,,
+GvHoover,stLed_Back,08,FAB3900,Magical Hoover,Led_Back,,,,,,,,
+GvHoover,stLeft_Arm,01,FAB4400,Hoover,Left_Arm,,,,,,,,
+GvHoover,stLeft_Wrist,02,FAB4400,Hoover,Left_Wrist,,,,,,,,
+GvHoover,stRight_Arm,03,FAB4400,Hoover,Right_Arm,,,,,,,,
+GvHoover,stRight_Wrist,04,FAB4400,Hoover,Right_Wrist,,,,,,,,
+GvHoover,stBag_Inflate,06,FAB4400,Hoover,Bag_Inflate,,,,,,,,
+GvHoover,stLed_Front,05,FAB4400,Hoover,Led_Front,,,,,,,,
+GvHoover,stLed_Back,07,FAB4400,Hoover,Led_Back,,,,,,,,
+GvDuster,stRotate,11,FAB4400,Feather Duster,Rotate,,,,,,,,
+GvDuster,stNod,12,FAB4400,Feather Duster,Nod,,,,,,,,
+GvDuster,stUpDown,13,FAB4400,Feather Duster,Up Down,,,,,,,,
+GvDuster,stTilt,14,FAB4400,Feather Duster,Tilt,,,,,,,,
+GvCloudJumper,stNeckNod,01,SSC1000,Cloud Jumper,Neck Nod,,,,,,,,
+GvCloudJumper,stNeckTurn,02,SSC1000,Cloud Jumper,Neck Turn,,,,,,,,
+GvCloudJumper,stHeadNod,03,SSC1000,Cloud Jumper,Head Nod,,,,,,,,
+GvCloudJumper,stHeadTilt,04,SSC1000,Cloud Jumper,Head Tilt,,,,,,,,
+GvCloudJumper,stMouth,05,SSC1000,Cloud Jumper,Mouth Open/Close,,,,,,,,
+GvCloudJumper,stRightEarFlaps,06,SSC1000,Cloud Jumper,Right Ear Flaps,,,,,,,,
+GvCloudJumper,stLeftEarFlaps,07,SSC1000,Cloud Jumper,Left Ear Flaps,,,,,,,,
+GvCloudJumper,stRightEyeTurn,08,SSC1000,Cloud Jumper,Right Eye Turn,,,,,,,,
+GvCloudJumper,stLeftEyeTurn,09,SSC1000,Cloud Jumper,Left Eye Turn,,,,,,,,
+GvCloudJumper,stRightEyeBlink,10,SSC1000,Cloud Jumper,Right Eye Blink,,,,,,,,
+GvCloudJumper,stLeftEyeBlink,11,SSC1000,Cloud Jumper,Left Eye Blink,,,,,,,,
+GvCloudJumper,stRightPupilDilate,12,SSC1000,Cloud Jumper,Right Pupil Dilate,,,,,,,,
+GvCloudJumper,stLeftPupilDilate,13,SSC1000,Cloud Jumper,Left Pupil Dilate,,,,,,,,
+GvGrump,stBreathe,01,SSC1700,Grump,Breathe In/Out,,,,,,,,
+GvGrump,stLeg,02,SSC1700,Grump,Left Front Leg Fwd/Back,,,,,,,,
+GvGrump,stElbow,03,SSC1700,Grump,Left Front Elbow,,,,,,,,
+GvGrump,stHeadNod,04,SSC1700,Grump,Head Nod,,,,,,,,
+GvGrump,stHeadTilt,05,SSC1700,Grump,Head Tilt,,,,,,,,
+GvGrump,stHeadTurn,06,SSC1700,Grump,Head Turn,,,,,,,,
+GvGrump,stMouth,07,SSC1700,Grump,Mouth Open/Close,,,,,,,,
+GvGrump,stLeftEar,08,SSC1700,Grump,Left Ear Up/Dn,,,,,,,,
+GvGrump,stRightEye,09,SSC1700,Grump,Right Eye Blink,,,,,,,,
+GvGrump,stLeftEye,10,SSC1700,Grump,Left Eye Blink,,,,,,,,
+GvSnowWraith,stBodyTurn,01,SSC1900,Snow Wraith,Body Turn,,,,,,,,
+GvSnowWraith,stNeckNod,02,SSC1900,Snow Wraith,Neck Nod,,,,,,,,
+GvSnowWraith,stHeadNod,03,SSC1900,Snow Wraith,Head Nod,,,,,,,,
+GvSnowWraith,stHeadTilt,04,SSC1900,Snow Wraith,Head Tilt,,,,,,,,
+GvSnowWraith,stHeadTurn,05,SSC1900,Snow Wraith,Head Turn,,,,,,,,
+GvSnowWraith,stMouth,06,SSC1900,Snow Wraith,Mouth Open/Close,,,,,,,,
+GvSnowWraith,stRightPupilDilate,07,SSC1900,Snow Wraith,Right Pupil Dilate,,,,,,,,
+GvSnowWraith,stLeftPupilDilate,08,SSC1900,Snow Wraith,Left Pupil Dilate,,,,,,,,
