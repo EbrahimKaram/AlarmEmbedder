@@ -1,0 +1,2 @@
+name = "Alarm Embedder"
+packages = ["pandas","bokeh==3.2.2", "pyodide-http","asyncio"]
